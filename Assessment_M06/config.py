@@ -1,17 +1,17 @@
 # Dictionary file location, change if needed.
-dictionaryloc = 'data\dictionary.txt'
+dictionaryloc = 'data/dictionary.txt'
 
 # Turn text file location, change if needed.
-turntextloc = 'data\turntext.txt'
+turntextloc = 'data/turntext.txt'
 
 # Wheel contents for file location, change if needed.
-wheeltextloc = 'data\wheeldata.txt'
+wheeltextloc = 'data/wheeldata.txt'
 
 # End of Round Status status file, change if needed.
-roundstatusloc = 'data\roundstatus.txt'
+roundstatusloc = 'data/roundstatus.txt'
 
 # number of rounds in a game
 maxrounds = 3
 
 # final round, change if needed.
-finalRoundTextLoc = 'data\finalround.txt'
+finalRoundTextLoc = 'data/finalround.txt'

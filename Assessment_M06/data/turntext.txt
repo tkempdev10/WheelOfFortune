@@ -2,3 +2,4 @@ The current round stats:
 {p1_name}: ${Round_total_p1}
 {p2_name}: ${Round_total_p2}
 {p3_name}: ${Round_total_p3}
+It is currently {p_current}'s turn!
