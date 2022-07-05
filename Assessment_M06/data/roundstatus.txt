@@ -1,0 +1,5 @@
+The round has ended!
+The winner of the round is {PlayerName}! Their round total has been added to their game total!
+{p1_name}: ${Game_total_p1}
+{p2_name}: ${Game_total_p2}
+{p3_name}: ${Game_total_p3}
