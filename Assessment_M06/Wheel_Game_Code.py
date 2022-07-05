@@ -206,7 +206,7 @@ def buyVowel(playerNum):
             # Ensure letter is a vowel    
             if (vowelGuess in vowels):
                 # Use guessLetter function to see if the letter is in the file
-                goodGuess = guessletter[1](vowelGuess)
+                goodGuess, count = guessletter(vowelGuess)
                 players[playerNum]["roundtotal"] = players[playerNum]["roundtotal"] - 250
                 valid_guess = True
             else:
@@ -231,7 +231,7 @@ def guessWord():
         blankWord = list(wordGuess)
         print("Congratulations! you guessed the word!")
     else:
-        print(f"Sorry {wordGuess} was not the word!")
+        print("Sorry {wordGuess} was not the word!")
 
     # return False ( to indicate the turn will finish)  
     return False
