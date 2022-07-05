@@ -225,13 +225,14 @@ def guessWord():
 
     print(f"This is where the word currently is: {blankWord}")
     wordGuess = str(input("Please input your word guess! "))
+    wordGuess = wordGuess.lower()
     # Ask for input of the word and check if it is the same as wordguess
     # Fill in blankList with all letters, instead of underscores if correct 
     if (wordGuess == roundWord):
         blankWord = list(wordGuess)
         print("Congratulations! you guessed the word!")
     else:
-        print("Sorry {wordGuess} was not the word!")
+        print(f"Sorry {wordGuess} was not the word!")
 
     # return False ( to indicate the turn will finish)  
     return False
@@ -367,7 +368,7 @@ def wofFinalRound():
     # Get user to guess word
     print("You will now get one chance to guess the word! Good luck!")
     lastGuess = str(input("Put in your guess! "))
-    lastGuess = lastGuess.lower
+    lastGuess = lastGuess.lower()
     # Take user input of the word and check if it is the same as roundWord
     if (lastGuess == roundWord):
         blankWord = list(lastGuess)
